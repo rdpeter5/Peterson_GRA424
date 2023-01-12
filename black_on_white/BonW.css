@@ -19,6 +19,7 @@ body{
 .inner {
   display: flex;
   border: 1px;
+  border-color: lightgray;
   border-style: solid;
   background: #fff;
   width: 42.857143vw;
