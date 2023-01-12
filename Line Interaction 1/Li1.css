@@ -1,6 +1,8 @@
+
 body{
   background: lightgray;
 }
+
 .page {
   display: flex;
   background: lightgray;
@@ -8,28 +10,40 @@ body{
   height: 100vh;
 }
 
-.square {
+.canvas {
   display: flex;
-  background: #fff;
+  background: white;
   width: 71.428571vw;
   height: 71.428571vh;
   margin:auto;
 }
 .inner {
   display: flex;
-  border: .5px;
-  border-color: lightgray;
-  border-style: solid;
-  background: #fff;
+  background: white;
   width: 42.857143vw;
   height: 42.857143vh;
   margin:auto;
 }
 
-.small {
-  display:flex;
+.lineleft{
   background: black;
-  width:14.285714vw;
-  height:14.285714vh;
+  height: 42.857143vh;
+  width: 2.6vw;
   margin: auto;
+  margin-left:0;
+}
+
+.line {
+  background: black;
+  height: 42.857143vh;
+  width: 2.6vw;
+  margin: auto;
+}
+
+.lineright{
+  background: black;
+  height: 42.857143vh;
+  width: 2.6vw;
+  margin: auto;
+  margin-right:0;
 }
