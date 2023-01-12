@@ -1,6 +1,6 @@
 .page {
   display: flex;
-  background: whitesmoke;
+  background: lightgray;
   width: 100vw;
   height: 100vh;
   margin:auto;
@@ -8,23 +8,23 @@
 
 .square {
   display: flex;
-  background: #000;
+  background: white;
   width: 71.428571vw;
-  height: 71.428571vh;
+  height: 71.428571vw;
   margin:auto;
 }
 .inner {
   display: flex;
-  background: #fff;
+  background: black;
   width: 42.857143vw;
-  height: 42.857143vh;
+  height: 42.857143vw;
   margin:auto;
 }
 
 .small {
   display:flex;
-  background: black;
+  background: white;
   width:14.285714vw;
-  height:14.285714vh;
+  height:14.285714vw;
   margin: auto;
 }
