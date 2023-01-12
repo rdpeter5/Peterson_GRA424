@@ -1,6 +1,7 @@
 
 body{
   background: lightgray;
+  overflow: hidden;
 }
 
 .page {
@@ -22,7 +23,7 @@ body{
   background: white;
   width: 42.857143vw;
   height: 42.857143vh;
-  margin:auto;
+  margin: auto;
 }
 
 .lineleft{
@@ -30,7 +31,7 @@ body{
   height: 42.857143vh;
   width: 2.6vw;
   margin: auto;
-  margin-left:0;
+  margin-left: 0;
 }
 
 .line {
@@ -45,5 +46,5 @@ body{
   height: 42.857143vh;
   width: 2.6vw;
   margin: auto;
-  margin-right:0;
+  margin-right: 0;
 }
