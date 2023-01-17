@@ -63,7 +63,6 @@ body{
   height: 42.857143vh;
   margin: 0px 1.3vw 0px 1.3vw;
 
-  filter: url(#shake0);
   rotate: 10deg;
 }
 
@@ -77,19 +76,19 @@ body{
   width: 42.857143vw;
   height: 42.857143vh;
   margin-left: 14.285714vw;
-  margin-top: 14.285714vh;
+  margin-top: 0vh;
 
-  clip-path: inset(0 0 0 0)
+  clip-path: inset(14.285714vh 0vw -14.285714vh 0vw)
+
 }
 
 .blackline {
   display: flex;
   background: black;
-  height: 42.857143vh;
+  height: 71.428571vh;
   width: 2.6vw;
   margin: auto;
 
-  filter: url(#shake1);
   rotate: 20deg;
 }
 

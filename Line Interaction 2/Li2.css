@@ -63,7 +63,6 @@ body{
   height: 42.857143vh;
   margin: 0px 1.3vw 0px 1.3vw;
 
-  filter: url(#shake0);
   rotate: 10deg;
 }
 
