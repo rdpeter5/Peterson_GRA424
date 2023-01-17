@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ryan Peterson - Line Interaction 2</title>
+    <link rel="stylesheet" href="Li3.css">
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="canvas">
+            <div class="inner">
+                <div class="line" id="lineleft"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line" id="lineright"></div>
+            </div>
+            <div class="over">
+                <div class="whiteline" id="lineleftwhite"></div>
+                <div class="whiteline"></div>
+                <div class="whiteline"></div>
+                <div class="whiteline"></div>
+                <div class="whiteline"></div>
+                <div class="whiteline"></div>
+                <div class="whiteline"></div>
+                <div class="whiteline"></div>
+                <div class="whiteline"></div>
+                <div class="whiteline"></div>
+                <div class="whiteline" id="linerightwhite"></div>
+            </div>
+            <div class="addition">
+                <div class="blackline" id="lineleftblack"></div>
+                <div class="blackline"></div>
+                <div class="blackline"></div>
+                <div class="blackline"></div>
+                <div class="blackline"></div>
+                <div class="blackline"></div>
+                <div class="blackline"></div>
+                <div class="blackline"></div>
+                <div class="blackline"></div>
+                <div class="blackline"></div>
+                <div class="blackline"></div>
+                <div class="blackline" id="linerightblack"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <svg>
+        <defs>
+            <filter id="shake0">
+                <feTurbulence id="turbulence" baseFrequency=".5" numOctaves="3" seed="4"/>
+                <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="4"/>
+            </filter>
+            <filter id="shake1">
+                <feTurbulence id="turbulence" baseFrequency=".75" numOctaves="3" seed="4"/>
+                <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="8"/>
+            </filter>
+        </defs>
+    </svg>
+
+</body>
+</html>

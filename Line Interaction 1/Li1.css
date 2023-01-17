@@ -1,5 +1,6 @@
 
 body{
+  margin: 0;
   background: lightgray;
   overflow: hidden;
 }
@@ -26,14 +27,6 @@ body{
   margin: auto;
 }
 
-.lineleft{
-  background: black;
-  height: 42.857143vh;
-  width: 2.6vw;
-  margin: auto;
-  margin-left: 0;
-}
-
 .line {
   background: black;
   height: 42.857143vh;
@@ -41,10 +34,10 @@ body{
   margin: auto;
 }
 
-.lineright{
-  background: black;
-  height: 42.857143vh;
-  width: 2.6vw;
-  margin: auto;
+#lineleft{
+  margin-left: 0;
+}
+
+#lineright{
   margin-right: 0;
 }
