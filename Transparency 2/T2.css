@@ -1,0 +1,55 @@
+
+body{
+  margin: 0;
+  background: lightgray;
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  background: lightgray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.canvas {
+  display: flex;
+  background: white;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  margin:auto;
+}
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 14.285714vh;
+  margin-left: 14.285714vw;
+  background: white;
+  width: 42.857143vw;
+  height: 42.857143vh;
+
+}
+
+.square {
+  display: flex;
+  height: 7.14285716667vh;
+  width: 7.14285716667vw;
+  margin: 0;
+}
+
+#s1, #s2, #s3, #s4, #s7, #s8, #s9, #s10, #s13, #s14, #s19, #s20 {
+  background: #932b2d;
+}
+
+#s15, #s16, #s21, #s22 {
+  background: #a67743;
+}
+
+#s17, #s18, #s23, #s24, #s27, #s28, #s29, #s30, #s33, #s34, #s35, #s36 {
+  background: #8db759;
+}
+
+#s5, #s6, #s11, #s12, #s25, #s26, #s31, #s32 {
+  background: white;
+}
