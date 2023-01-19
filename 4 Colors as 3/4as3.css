@@ -1,0 +1,91 @@
+
+body{
+  margin: 0;
+  background: lightgray;
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  background: lightgray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.canvas {
+  display: flex;
+  background: white;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  margin:auto;
+}
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 14.285714vh;
+  margin-left: 14.285714vw;
+  width: 42.857143vw;
+  height: 42.857143vh;
+
+}
+
+.square {
+  display: flex;
+  height: 7.14285716667vh;
+  width: 7.14285716667vw;
+  margin: 0;
+}
+
+#s1, #s2, #s3, #s7, #s8, #s9, #s13, #s19, #s20, #s25, #s26, #s27, #s31, #s32, #s33 {
+  background: #c34c40;
+}
+
+#s14, #s15, #s20, #s21 {
+  background: #d0b3ca;
+}
+
+#s4, #s5, #s6, #s10, #s11, #s12, #s18, #s24, #s28, #s29, #s30, #s34, #s35, #s36 {
+background: #c8cce9;
+}
+
+#s16, #s17, #s22, #s23 {
+  background: #cbc2de;
+}
+
+.hover {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 14.285714vh;
+  margin-left: 14.285714vw;
+  width: 42.857143vw;
+  height: 42.857143vh;
+}
+
+.hover:hover{
+  opacity: 0;
+}
+
+.hoversquare {
+  display: flex;
+  height: 7.14285716667vh;
+  width: 7.14285716667vw;
+  margin: 0;
+}
+
+#ss1, #ss2, #ss3, #ss7, #ss8, #ss9, #ss13, #ss15, #ss19, #ss20, #ss21, #ss25, #ss26, #ss27, #ss31, #ss32, #ss33 {
+  background: #c34c40;
+}
+
+#ss14, #ss20 {
+  background: #d0b3ca;
+}
+
+#ss4, #ss5, #ss6, #ss10, #ss11, #ss12, #ss16, #ss18, #ss22, #ss24, #ss28, #ss29, #ss30, #ss34, #ss35, #ss36 {
+background: #c8cce9;
+}
+
+#ss17, #ss23 {
+  background: #cbc2de;
+}
