@@ -73,12 +73,12 @@ body{
 .addition {
   display: flex;
   position: absolute;
-  width: 42.857143vw;
+  width: 79.457142vw;
   height: 42.857143vh;
-  margin-left: 14.285714vw;
+  margin-left: 0vw;
   margin-top: 0vh;
 
-  clip-path: inset(14.285714vh 0vw -14.285714vh 0vw)
+  clip-path: inset(14.29vh 22.35vw -14.285714vh 14.285714vw)
 
 }
 

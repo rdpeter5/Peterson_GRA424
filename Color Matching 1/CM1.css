@@ -1,0 +1,73 @@
+
+body{
+  margin: 0;
+  background: lightgray;
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  background: lightgray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.canvas {
+  display: flex;
+  background: white;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  margin:auto;
+}
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin: auto;
+}
+
+.square {
+  height: 14.285714vh;
+  width: 14.285714vw;
+  margin: 0;
+}
+
+#s1 {
+  background: #c66422;
+}
+
+#s2 {
+  background: #9fc3db;
+}
+
+#s3 {
+  background: #889fdb;
+}
+
+#s4 {
+  background: #c34c40;
+}
+
+#s5 {
+  background: #8c6858;
+}
+
+#s6 {
+  background: #ffcc62;
+}
+
+#s7 {
+  background: #222b28;
+}
+
+#s8 {
+  background: #678145;
+}
+
+#s9 {
+  background: #f6b692;
+}
+
+
