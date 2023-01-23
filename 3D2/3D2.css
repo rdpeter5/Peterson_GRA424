@@ -1,0 +1,28 @@
+body{
+
+  margin: 0;
+  background: lightgray;
+  overflow: hidden;
+}
+.page {
+  display: flex;
+  background: lightgray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.square {
+  display: flex;
+  background: #000;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  margin:auto;
+}
+.inner {
+  display: flex;
+  border-style: solid;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin:auto;
+  object-fit: cover;
+}
