@@ -19,6 +19,7 @@ body{
   height: 71.428571vh;
   margin:auto;
 }
+
 .inner {
   display: flex;
   flex-wrap: wrap;
@@ -92,5 +93,5 @@ body{
 
 .hover:hover{
   opacity: 0;
-}
+} 
 

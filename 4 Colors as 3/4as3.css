@@ -42,7 +42,7 @@ body{
 }
 
 #s14, #s15, #s20, #s21 {
-  background: #c16166;
+  background: #C06775;
 }
 
 #s4, #s5, #s6, #s10, #s11, #s12, #s18, #s24, #s28, #s29, #s30, #s34, #s35, #s36 {
@@ -50,7 +50,7 @@ background: #c8cce9;
 }
 
 #s16, #s17, #s22, #s23 {
-  background: #c29db5;
+  background: #BFB0CF;
 }
 
 .hover {
@@ -79,7 +79,7 @@ background: #c8cce9;
 }
 
 #ss14, #ss20 {
-  background: #c16166;
+  background: #C06775;
 }
 
 #ss4, #ss5, #ss6, #ss10, #ss11, #ss12, #ss16, #ss18, #ss22, #ss24, #ss28, #ss29, #ss30, #ss34, #ss35, #ss36 {
@@ -87,5 +87,5 @@ background: #c8cce9;
 }
 
 #ss17, #ss23 {
-  background: #c29db5;
+  background: #BFB0CF;
 }
