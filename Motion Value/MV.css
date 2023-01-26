@@ -1,0 +1,87 @@
+
+body{
+  margin: 0;
+  background: lightgray;
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  background: lightgray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.canvas {
+  display: flex;
+  background: white;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  margin:auto;
+}
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 14.285714vh;
+  margin-left: 14.285714vw;
+  background: white;
+  width: 42.857143vw;
+  height: 42.857143vh;
+
+}
+
+.square {
+  display: flex;
+  height: 7.14285716667vh;
+  width: 7.14285716667vw;
+  margin: 0;
+}
+
+#s1, #s2, #s3, #s7, #s8, #s9, #s13, #s14 {
+  background: #4c6b44;
+}
+
+#s15 {
+  background: #b95948;
+}
+
+#s4, #s5, #s6, #s10, #s11, #s12, #s17, #s18 {
+background: #658e5e;
+}
+
+#s16 {
+  background: #c77864;
+}
+
+#s19, #s20, #s25, #s26, #s27, #s31, #s32, #s33{
+  background: #b8d1aa;
+}
+
+#s21 {
+  background: #f6c3b0;
+}
+
+#s23, #s24, #s28, #s29, #s30, #s34, #s35, #s36 {
+  background: #90b985;
+}
+
+#s22 {
+  background: #e5a18a;
+}
+
+.blackwall {
+  display: flex;
+  position: absolute;
+  background: black;  
+  margin-top: -14.285714vh;
+  margin-left: -14.285714vw;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0%;
+  transition: opacity 8s ease-out;
+}
+
+.blackwall:active {
+  opacity: 91%;
+}
