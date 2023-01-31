@@ -1,7 +1,7 @@
 
 body{
   margin: 0;
-  background: lightgray;
+  background: #d3d3d3;
   overflow: hidden;
 }
 
@@ -50,7 +50,7 @@ background: #c8cce9;
 }
 
 #s16, #s17, #s22, #s23 {
-  background: #cfbfe0;
+  background: #CBBBDB;
 }
 
 .hover {
@@ -87,5 +87,5 @@ background: #c8cce9;
 }
 
 #ss17, #ss23 {
-  background: #cfbfe0;
+  background: #CBBBDB;
 }
