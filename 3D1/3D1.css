@@ -18,11 +18,12 @@ body{
   height: 71.428571vh;
   margin:auto;
 }
+
 .inner {
   display: flex;
-  border-style: solid;
   width: 71.428571vw;
   height: 71.428571vh;
   margin:auto;
-  object-fit: cover;
+  object-fit: scale-down;
 }
+
