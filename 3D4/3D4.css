@@ -20,9 +20,8 @@ body{
 }
 .inner {
   display: flex;
-  border-style: solid;
-  width: 42.857143vw;
-  height: 42.857143vh;
+  width: 62.857143vw;
+  height: 62.857143vh;
   margin:auto;
-  object-fit: cover;
+  object-fit: scale-down;
 }
