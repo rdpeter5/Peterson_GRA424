@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ryan Peterson - White on Black & Black on White Interaction</title>
+    <link rel="stylesheet" href="WonB.css">
+                
+</head>
+
+<body>
+<header>
+    <div>
+        <p class="firsthead"><a href="/index.html"><button id="head_1" class="astext">GRA 121<br>Design Principles I</button></a></p>
+    </div>
+    <div>
+        <p><button class="astext" onclick="myFunction4()" id="head_2">Work</button><br><button class="astext" onclick="myFunction3()" id="head_3">Analysis</button></p>
+    </div>
+    <div>
+        <p><button onclick="myFunction2()" class="astext" id="head_4">Black on<br>White</button></p>
+    </div>
+    <div>
+        <p><button onclick="myFunction()" class="astext" id="head_5">White on<br>Black</button></p>
+    </div>
+    <div>
+        <p></p>
+    </div>
+    <div>
+        <p></p>
+    </div>
+</header>
+    <div class="page" id="myDIV">
+        <div class="square">
+            <div class="inner">
+                <div class="small">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page2" id="myDIV2">
+        <div class="square2">
+            <div class="inner2">
+                <div class="small2">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="analysis" id="myDIV3">
+        <div class="square3">
+            <h1>
+                The scale of the different squares is interesting because the 4.4cm squares are the same dimensions, however the black on white square appears to be darker and scaled smaller than the white on black square because of all the white space. The black areas of the squares appear farther in the background than the white areas. The scale of the different squares is smaller than the white on black square because of all the white space.
+            </h1>
+        </div>
+    </div>
+
+    <script>
+            function myFunction() {
+            document.getElementById("myDIV").style.display = "flex";
+
+            document.getElementById("myDIV2").style.display = "none";
+
+            document.getElementById("myDIV3").style.display = "none";
+
+            document.getElementById("head_1").style.color = "#636466";
+            document.getElementById("head_2").style.color = "#636466";
+            document.getElementById("head_3").style.color = "#b1b3b6";
+            document.getElementById("head_4").style.color = "#b1b3b6";
+            document.getElementById("head_5").style.color = "#636466";
+        }
+
+            function myFunction2() {
+            document.getElementById("myDIV").style.display = "none";
+
+            document.getElementById("myDIV2").style.display = "flex";
+
+            document.getElementById("myDIV3").style.display = "none";
+
+            document.getElementById("head_1").style.color = "#636466";
+            document.getElementById("head_2").style.color = "#636466";
+            document.getElementById("head_3").style.color = "#b1b3b6";
+            document.getElementById("head_4").style.color = "#636466";
+            document.getElementById("head_5").style.color = "#b1b3b6";
+        }
+
+        function myFunction3() {
+            document.getElementById("myDIV").style.display = "none";
+
+            document.getElementById("myDIV2").style.display = "none";
+
+            document.getElementById("myDIV3").style.display = "flex";
+
+            document.getElementById("head_1").style.color = "white";
+            document.getElementById("head_2").style.color = "#b1b3b6";
+            document.getElementById("head_3").style.color = "white";
+            document.getElementById("head_4").style.color = "#b1b3b6";
+            document.getElementById("head_5").style.color = "#b1b3b6";
+        }
+
+        function myFunction4() {
+            document.getElementById("myDIV").style.display = "none";
+
+            document.getElementById("myDIV2").style.display = "flex";
+
+            document.getElementById("myDIV3").style.display = "none";
+
+            document.getElementById("head_1").style.color = "#636466";
+            document.getElementById("head_2").style.color = "#636466";
+            document.getElementById("head_3").style.color = "#b1b3b6";
+            document.getElementById("head_4").style.color = "#636466";
+            document.getElementById("head_5").style.color = "#b1b3b6";
+        }
+    </script>
+</body>
+</html>

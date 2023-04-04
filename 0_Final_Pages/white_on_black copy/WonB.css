@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  background: lightgray;
+  overflow: hidden;
+  font-family: Helvetica,  Arial, sans-serif;
+}
+
+header{
+  position: absolute;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 14.285714% 14.285714% 14.285714% 14.285714% 14.285714% 14.285714% 14.285714%;
+}
+
+.firsthead{
+  margin-left: 1rem;
+}
+
+.astext {
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  cursor: pointer;
+  text-align: left;
+}
+
+header p{
+  margin-right: 2rem;
+  font-size: 8pt;
+  line-height: 11pt;
+  letter-spacing: .09em;
+  color: #5a5758;
+}
+
+button{
+  font-size: 8pt;
+  line-height: 11pt;
+  letter-spacing: .09em;
+  color: #5a5758;
+}
+
+h1{
+  font-weight: 400;
+  font-size: 31pt;
+  line-height: 37.283pt;
+  letter-spacing: .09em;
+  color: white;
+}
+
+.page {
+  display: flex;
+  background: lightgray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.square {
+  display: flex;
+  background: white;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  margin: auto;
+}
+
+.inner {
+  display: flex;
+  background: black;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin: auto;
+}
+
+.small {
+  display:flex;
+  background: white;
+  width:14.285714vw;
+  height:14.285714vh;
+  margin: auto;
+}
+
+.page2 {
+  display: flex;
+  background: lightgray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.square2 {
+  display: flex;
+  background: #fff;
+  width: 71.428571vw;
+  height: 71.428571vh;
+  margin:auto;
+}
+
+.inner2 {
+  display: flex;
+  border: .5px;
+  border-color: lightgray;
+  border-style: solid;
+  background: #fff;
+  width: 42.857143vw;
+  height: 42.857143vh;
+  margin:auto;
+}
+
+.small2 {
+  display:flex;
+  background: black;
+  width:14.285714vw;
+  height:14.285714vh;
+  margin: auto;
+}
+
+.analysis {
+  display: flex;
+  background: #6a6c6e;
+  width: 100vw;
+  height: 100vh;
+}
+
+.square3 {
+  display: flex;
+  width: 74vw;
+  height: 64vh;
+  margin: auto;
+  margin-left: 14.285714vw;
+  overflow-y: auto;
+}
+
+#myDIV {
+  display: none;
+}
+
+#myDIV2 {
+  z-index: -1;
+}
+
+#head_1{
+  color: #636466;
+}
+#head_2{
+  color: #636466;
+}
+#head_3{
+  color: #b1b3b6;
+}
+#head_4{
+  color: #636466;
+}
+#head_5{
+  color: #b1b3b6;
+}
